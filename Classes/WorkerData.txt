@@ -1,0 +1,4 @@
+Alex | Banuelos | 12/08/2000 | 999999 | banu01@luther.edu | 0 | 0 | Monday 07:00 AM - 10:00 AM | Clean
+Vo | Hiep | 03/11/1999 | 010203 | vohi01@luther.edu | 0 | 0 | Monday - Wednesday 4:00PM - 9:00PM | Clean
+
+Long | Khuong | 22/06/1999 | 0514041 | khuolo01@luther.edu | 1 | 0 | Mon-Fri 8:00AM - 10:00AM | Clean
