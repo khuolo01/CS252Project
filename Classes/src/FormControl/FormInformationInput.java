@@ -21,7 +21,7 @@ public class FormInformationInput extends JPanelExtended {
 		
 		// Title label
 		
-		JLabel lblWorkerInformation = new JLabel("Worker Information");
+		JLabel lblWorkerInformation = new JLabel("Personal Information");
 		lblWorkerInformation.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		lblWorkerInformation.setBounds(109, 11, 150, 28);
 		
@@ -30,7 +30,7 @@ public class FormInformationInput extends JPanelExtended {
 		
 		JLabel fn_label = new JLabel();
 		fn_label.setText("First Name: ");
-		fn_label.setBounds(50,50,68,30);
+		fn_label.setBounds(38,50,82,30);
 		fn = new JTextField();
 		fn.setBounds(130, 50, 150, 30);
 		fn.setToolTipText("Input the person's first name");
@@ -40,7 +40,7 @@ public class FormInformationInput extends JPanelExtended {
 		
 		JLabel ln_label = new JLabel();
 		ln_label.setText("Last Name: ");
-		ln_label.setBounds(50,100,68,30);
+		ln_label.setBounds(38,100,82,30);
 		ln = new JTextField();
 		ln.setBounds(130, 100, 150, 30);
 		ln.setToolTipText("Input the person's last name");
@@ -50,7 +50,7 @@ public class FormInformationInput extends JPanelExtended {
 		
 		JLabel dob_label = new JLabel();
 		dob_label.setText("Date Of Birth: ");
-		dob_label.setBounds(50,150,82,30);
+		dob_label.setBounds(38,150,82,30);
 		dob = new JTextField();
 		dob.setBounds(130, 150, 150, 30);
 		dob.setToolTipText("Input the person's Date of Birth");
@@ -60,7 +60,7 @@ public class FormInformationInput extends JPanelExtended {
 		
 		JLabel ID_label = new JLabel();
 		ID_label.setText("ID: ");
-		ID_label.setBounds(50,200,68,30);
+		ID_label.setBounds(38,200,82,30);
 		ID = new JTextField();
 		ID.setBounds(130, 200, 150, 30);
 		ID.setToolTipText("Input the person's ID");
@@ -69,7 +69,7 @@ public class FormInformationInput extends JPanelExtended {
 		// Worker Email Field
 		JLabel Email_label = new JLabel();
 		Email_label.setText("Email: ");
-		Email_label.setBounds(50,250,68,30);
+		Email_label.setBounds(38,250,82,30);
 		Email = new JTextField();
 		Email.setBounds(130, 250, 150, 30);
 		Email.setToolTipText("Input the person's email");

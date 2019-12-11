@@ -34,5 +34,4 @@ public class LoginSite extends JFrame {
 		contentPane = new LoginSitePanel(this);
 		setContentPane(contentPane);
 	}
-
 }
