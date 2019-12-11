@@ -3,3 +3,4 @@ eric | 12345
 1 | 1
 khuolo01 | 1
 vohi01 | 1
+banue01 | 1
