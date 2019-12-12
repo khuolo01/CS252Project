@@ -16,7 +16,9 @@ public class Position {
 	}
 	
 	public String toString() {
-		return "title: " + this.title + " remaining slot: " + this.remainingSlots + "at " + this.place;
+		return "title: " + this.title + 
+				" remaining slot: " + this.remainingSlots + 
+				"at " + this.place;
 	}
 	
 }
