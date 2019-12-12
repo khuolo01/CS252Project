@@ -3,6 +3,7 @@ package FormControl;
 import ExtendedSupportClasses.JPanelExtended;
 
 import javax.swing.JLabel;
+import javax.swing.JTextArea;
 
 import java.awt.Dimension;
 import java.awt.Font;
@@ -11,7 +12,7 @@ import javax.swing.JTextField;
 
 @SuppressWarnings("serial")
 public class FormSendWarning extends JPanelExtended {
-	private JTextField ReasonField;
+	private JTextArea ReasonField;
 	private JTextField Date;
 
 	/**
@@ -29,11 +30,14 @@ public class FormSendWarning extends JPanelExtended {
 		lblReason.setBounds(40, 94, 100, 34);
 		add(lblReason);
 		
-		ReasonField = new JTextField();
+		ReasonField = new JTextArea();
 		ReasonField.setBounds(194, 94, 186, 122);
 		ReasonField.setToolTipText("Input the reason");
 		add(ReasonField);
 		ReasonField.setColumns(10);
+		ReasonField.setRows(10);
+		ReasonField.setLineWrap(true);
+		ReasonField.setWrapStyleWord(true);
 		
 		JLabel lblDayOfViolation = new JLabel("Day Of Violation:");
 		lblDayOfViolation.setFont(new Font("Times New Roman", Font.BOLD, 18));

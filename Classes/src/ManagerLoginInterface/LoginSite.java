@@ -31,6 +31,7 @@ public class LoginSite extends JFrame {
 	public LoginSite() { 	     
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 350, 250);
+		setTitle("Manager Login Site");
 		contentPane = new LoginSitePanel(this);
 		setContentPane(contentPane);
 	}

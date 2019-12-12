@@ -1,3 +1,5 @@
 Long | Khuong | 22/06/99 | 0514041 | khuolo01@luther.edu | CAF | khuolo01 | 1
 Vo | Hiep | 03/11/1999 | 090807 | vohi01@luther.edu | CAF | vohi01 | 1
 Alex | Banuelos | 12/08/1999 | 123456 | banue01@luther.edu | CAF | banue01 | 1
+Long  | Khuong | 06/22/1999 | 0514041 | khuolo01@luther.edu | CAF | test | test
+1 | 1 | 11 | 1 | 1 | CAF | 123 | 123

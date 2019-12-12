@@ -13,6 +13,7 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
+import java.awt.Font;
 
 @SuppressWarnings("serial")
 public class LoginSitePanel extends JPanel {
@@ -28,7 +29,8 @@ public class LoginSitePanel extends JPanel {
 		loginFrame = frame;
 		
 		final JLabel loginLabel = new JLabel();
-    	loginLabel.setBounds(80,10,150,30);
+		loginLabel.setFont(new Font("Times New Roman", Font.BOLD, 15));
+    	loginLabel.setBounds(100,11,150,30);
     	loginLabel.setText("Manager Login Site");
     	
     	

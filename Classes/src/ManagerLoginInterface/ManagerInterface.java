@@ -62,18 +62,18 @@ public class ManagerInterface extends JPanel {
 		sendWarning.addActionListener(warning);
 		
 		
-		// Worker Promotion Function
+		// Worker Promotion Function (Constructing)
 		
-		JButton promotion = new JButton("Promotion\r\n(Constructing)\r\n");
-		promotion.setFont(new Font("Times New Roman", Font.PLAIN, 18));
-		promotion.setBounds(50, 410, 250, 125);
+//		JButton promotion = new JButton("Promotion\r\n(Constructing)\r\n");
+//		promotion.setFont(new Font("Times New Roman", Font.PLAIN, 18));
+//		promotion.setBounds(50, 410, 250, 125);
 		
 		
 		// Item Manipulation Function
 		
 		JButton itemManipulation = new JButton("Item Manipulation");
 		itemManipulation.setFont(new Font("Times New Roman", Font.PLAIN, 18));
-		itemManipulation.setBounds(482, 410, 250, 125);
+		itemManipulation.setBounds(50, 410, 250, 125);
 		ActionOpenItemInterface itemInterface = new ActionOpenItemInterface();
 		itemManipulation.addActionListener(itemInterface);
 		
@@ -83,7 +83,7 @@ public class ManagerInterface extends JPanel {
 		setBorder(new EmptyBorder(5, 5, 5, 5));
 		setLayout(null);
 		add(newWorker); add(newManager); add(checkInfo); 
-		add(sendWarning); add(promotion); add(itemManipulation);
+		add(sendWarning); add(itemManipulation);
 		add(lblManagerInterface);
 	}
 	

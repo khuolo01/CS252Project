@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<Classes>",
+            "request": "launch",
+            "mainClass": "DomainClasses.Test",
+            "projectName": "Classes"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LoginSite<Classes>",
+            "request": "launch",
+            "mainClass": "ManagerLoginInterface.LoginSite",
+            "projectName": "Classes"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BeforeClosing<Classes>",
+            "request": "launch",
+            "mainClass": "test.BeforeClosing",
+            "projectName": "Classes"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ComplexOptionPane<Classes>",
+            "request": "launch",
+            "mainClass": "test.ComplexOptionPane",
+            "projectName": "Classes"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<Classes>",
+            "request": "launch",
+            "mainClass": "test.test",
+            "projectName": "Classes"
+        }
+    ]
+}

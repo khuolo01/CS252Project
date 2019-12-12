@@ -5,13 +5,13 @@ import javax.swing.JLabel;
 import java.awt.Dimension;
 import java.awt.Font;
 
-import javax.swing.JTextField;
+import javax.swing.JTextArea;
 
 import ExtendedSupportClasses.JPanelExtended;
 
 @SuppressWarnings("serial")
 public class FormInputWorkerShift extends JPanelExtended {
-	private JTextField ShiftField;
+	private JTextArea ShiftField;
 
 	/**
 	 * Create the panel.
@@ -23,11 +23,14 @@ public class FormInputWorkerShift extends JPanelExtended {
 		lblInputWorkerShift.setBounds(57, 11, 324, 57);
 		add(lblInputWorkerShift);
 		
-		ShiftField = new JTextField();
+		ShiftField = new JTextArea();
+		ShiftField.setLineWrap(true);
 		ShiftField.setBounds(91, 79, 228, 87);
 		ShiftField.setToolTipText("Input the worker's shift");
 		add(ShiftField);
 		ShiftField.setColumns(10);
+		ShiftField.setRows(10);
+		ShiftField.setWrapStyleWord(true);
 	}
 	
 	public String getShift(){

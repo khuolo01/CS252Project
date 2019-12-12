@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Position {
 	private String title;
+	@SuppressWarnings("unused")
 	private ArrayList <StudentWorker> currentStudents;
 	private int remainingSlots;
 	private String place;

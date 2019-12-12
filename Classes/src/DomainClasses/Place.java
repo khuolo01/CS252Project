@@ -1,13 +1,14 @@
 package DomainClasses;
 
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
 
 public class Place {
 	private String name;
 	private ArrayList <Position> allPosition;
+	@SuppressWarnings("unused")
 	private ArrayList <Manager> managers;
 	private ArrayList <StudentWorker> allStudents;
+	@SuppressWarnings("unused")
 	private DailyRecord daily;
 	
 	public Place(String name) {
